@@ -8,7 +8,7 @@
         document.getElementById('event_Title').innerText = "Free Practice 1";
 
 
-        let gpday = "Nov 15, 2021 15:00:00",
+        let gpday = "November 15, 2021 15:00:00",
         countdown = new Date(gpday).getTime(),
         x = setInterval(function(){
             let now = new Date().getTime(),
@@ -22,7 +22,7 @@
 
             document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
                 if (distance < 0) {
-                    gpday = "Dec 29, 2021 18:30:00";
+                    gpday = "December 29, 2021 18:30:00";
                     let rDay = new Date(gpday).getTime(); 
                     distance = rDay - now;
                     document.getElementById("days").innerText = Math.floor(distance / (day));
