@@ -8,7 +8,7 @@
         document.getElementById('event_Title').innerText = "Free Practice 1";
 
 
-        let gpday = "Dec 03, 2021 15:00:00",
+        let gpday = "Dec 03, 2023 15:00:00",
         countdown = new Date(gpday).getTime(),
         x = setInterval(function(){
             let now = new Date().getTime(),
